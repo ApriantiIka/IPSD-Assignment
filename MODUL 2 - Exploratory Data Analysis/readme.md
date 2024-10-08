@@ -5,15 +5,15 @@
 Exploratory Data Analysis (EDA) memainkan peran penting dalam ilmu data, memberikan wawasan yang berharga untuk mengidentifikasi dan meningkatkan wawasan bisnis yang penting di seluruh organisasi [1]. 
 EDA juga dapat secara efektif menunjukkan nilai yang diharapkan dari eksperimen untuk hipotesis tertentu jika dilakukan dengan baik [2].
 Tujuan EDA: 
-- EDA sangat penting untuk mengungkap wawasan dan pola tersembunyi dalam data, yang sangat penting untuk membuat keputusan bisnis yang tepat dan meningkatkan hasil organisasi [1]
-- Ini adalah langkah penting untuk memahami data sebelum menerapkan model statistik atau algoritme pembelajaran mesin, memastikan bahwa data tersebut bersih dan dipahami dengan baik [1]
-- EDA membantu dalam mengidentifikasi wawasan bisnis yang penting dan meningkatkan proses pengambilan keputusan di berbagai sektor dengan memberikan pemahaman yang lebih mendalam tentang data [1]
-- Hal ini memungkinkan identifikasi pola dan masalah dalam data, yang dapat mengarah pada perumusan hipotesis dan analisis lebih lanjut
+- EDA sangat penting untuk mengungkap wawasan dan pola tersembunyi dalam data, yang sangat penting untuk membuat keputusan bisnis yang tepat dan meningkatkan hasil organisasi [1].
+- Ini adalah langkah penting untuk memahami data sebelum menerapkan model statistik atau algoritme pembelajaran mesin, memastikan bahwa data tersebut bersih dan dipahami dengan baik [1].
+- EDA membantu dalam mengidentifikasi wawasan bisnis yang penting dan meningkatkan proses pengambilan keputusan di berbagai sektor dengan memberikan pemahaman yang lebih mendalam tentang data [1].
+- Hal ini memungkinkan identifikasi pola dan masalah dalam data, yang dapat mengarah pada perumusan hipotesis dan analisis lebih lanjut [4].
 - EDA adalah tugas yang menuntut dan memakan waktu yang membutuhkan keterampilan analitis dan pengetahuan domain yang signifikan [3]
 - Kemajuan terbaru dalam pembelajaran mesin telah mengarah pada pengembangan sistem yang dapat mengotomatiskan bagian-bagian dari proses EDA, membuatnya lebih efisien dan tidak terlalu banyak membutuhkan tenaga kerja.
-- Berbagai alat dan bahasa pemrograman, seperti Python dan R, menyediakan metode untuk melakukan EDA, masing-masing dengan kelebihan dan kekurangannya sendiri
-- Sistem dan pustaka baru, seperti DataPrep.EDA, sedang dikembangkan untuk meningkatkan skalabilitas, kegunaan, dan penyesuaian tugas-tugas EDA, sehingga prosesnya lebih mudah diakses oleh para ilmuwan data
-- EDA sering kali merupakan proses kolaboratif, dengan para ilmuwan data berbagi temuan mereka melalui buku catatan dan dokumentasi lainnya. Namun, membuat buku catatan EDA yang terdokumentasi dengan baik dapat menjadi rumit [3][5]
+- Berbagai alat dan bahasa pemrograman, seperti Python dan R, menyediakan metode untuk melakukan EDA, masing-masing dengan kelebihan dan kekurangannya sendiri.
+- Sistem dan pustaka baru, seperti DataPrep.EDA, sedang dikembangkan untuk meningkatkan skalabilitas, kegunaan, dan penyesuaian tugas-tugas EDA, sehingga prosesnya lebih mudah diakses oleh para ilmuwan data.
+- EDA sering kali merupakan proses kolaboratif, dengan para ilmuwan data berbagi temuan mereka melalui buku catatan dan dokumentasi lainnya. Namun, membuat buku catatan EDA yang terdokumentasi dengan baik dapat menjadi rumit [3][5].
 - Alat-alat seperti ExplainED dan Diff in the Loop (DITL) membantu dalam memahami dan memvisualisasikan perubahan berulang pada data, meningkatkan aspek kolaboratif dari EDA[3]
 
 ## Guided 
