@@ -18,12 +18,81 @@ Tujuan EDA:
 
 ## Guided 
 
-### 1. [Nama Topik]
+### 1. Load data
 
 ```python
-print("ini adalah file code guided praktikan")
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv('/content/Movie_classification.csv')
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function print untuk mengeksekusi nya.
+Kode di atas digunakan untuk membaca file csv `Movie_classification.csv` dan menampilkan isi dataset dengan menggunakan library `pandas`. Library `pandas` adalah salah satu library Python yang sangat populer untuk mengolah dan menganalisis data. Sedangkan library `numpy` digunakan untuk mengolah data numerik. Function `read_csv` dari `pandas` digunakan untuk membaca file csv `Movie_classification.csv` lalu disimpan dalam variabel `df`.
+
+### 2. Menampilkan head dari dataframe
+
+```python
+df.head()
+```
+Kode di atas digunakan untuk menampilkan beberapa baris pertama dari dataframe `df`.
+
+### 3. Menampilkan tail dari dataframe
+
+```python
+df.head()
+```
+Kode di atas digunakan untuk menampilkan beberapa baris terakhit dari dataframe `df`.
+
+### 4. Menampilkan deskripsi statistik dari dataframe
+
+```python
+df.describe()
+```
+Kode di atas digunakan untuk menampilkan ringkasan statistik dari dataframe `df`, seperti jumlah, rata-rata, standar deviasi, nilai minimum, nilai maksimum, dan quartil.
+
+### 5. Menampilkan jumlah missing value dari dataframe
+
+```python
+df.isna().sum()
+```
+Kode di atas digunakan untuk menampilkan jumlah null atau missing value pada setiap kolom dalam dataframe `df`.
+
+### 6. Menampilkan data type dari dataframe
+
+```python
+df.dtypes
+```
+Kode di atas digunakan untuk menampilkan tipe data dari setiap kolom dalam dataframe `df`.
+
+### 7. Menampilkan presentase missing value
+
+```python
+# melihat nilai kosong pada setiap kolom dalam persen
+df.isna().sum()/len(df)*100
+# jumlah data kosong dibagi panjang datanya dikali 100
+```
+Kode di atas digunakan untuk menampilkan persentase nilai kosong pada setiap kolom dalam dataframe `df`. Presentase dihitung dengan jumlah nilai kosong dibagi dengan panjang dataframe, lalu dikali dengan 100.
+
+### 8. Menghapus baris yang memiliki missing value
+
+```python
+df.dropna(inplace=True)
+```
+Kode di atas digunakan untuk menghapus baris dengan missing value pada dataframe `df`. Parameter `inplace=True`digunakan untuk mengubah dataframe asli `df`.
+
+### 9.  Expor data ke excel
+
+```python
+df.to_excel('Movie_classification.xlsx', index = False)
+```
+Kode di atas digunakan untuk mengekspor dataframe `df` ke file Excel dengan nama `Movie_classification.xlsx`.
+
+### 10. Membuat kolom baru untuk perbandingan
+
+```python
+iris['sepal_ratio'] = iris['SepalLengthCm']/iris['SepalWidthCm']
+print (iris.head())
+```
+Kode di atas digunakan untuk melakukan operasi aritmatika pada dataframe `iris` dan menambahkan kolom baru `sepal_ratio` yang merupakan perbandingan antara panjang dan lebar sepal.
 
 ## Unguided 
 
